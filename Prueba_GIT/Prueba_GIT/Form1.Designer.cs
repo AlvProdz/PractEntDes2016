@@ -30,6 +30,7 @@
         {
             this.CampoHola = new System.Windows.Forms.TextBox();
             this.Boton_DecirHola = new System.Windows.Forms.Button();
+            this.CampoQuetal = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
             // 
             // CampoHola
@@ -50,11 +51,19 @@
             this.Boton_DecirHola.UseVisualStyleBackColor = true;
             this.Boton_DecirHola.Click += new System.EventHandler(this.Boton_DecirHola_Click);
             // 
+            // CampoQuetal
+            // 
+            this.CampoQuetal.Location = new System.Drawing.Point(26, 81);
+            this.CampoQuetal.Name = "CampoQuetal";
+            this.CampoQuetal.Size = new System.Drawing.Size(207, 20);
+            this.CampoQuetal.TabIndex = 2;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(517, 236);
+            this.Controls.Add(this.CampoQuetal);
             this.Controls.Add(this.Boton_DecirHola);
             this.Controls.Add(this.CampoHola);
             this.Name = "Form1";
@@ -68,6 +77,7 @@
 
         private System.Windows.Forms.TextBox CampoHola;
         private System.Windows.Forms.Button Boton_DecirHola;
+        private System.Windows.Forms.TextBox CampoQuetal;
     }
 }
 

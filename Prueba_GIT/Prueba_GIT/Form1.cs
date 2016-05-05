@@ -25,6 +25,7 @@ namespace Prueba_GIT
         private void Boton_DecirHola_Click(object sender, EventArgs e)
         {
             CampoHola.Text = "Hola Mundo";
+            CampoQuetal.Text = "¿Qué tal estás?";
         }
     }
 }
