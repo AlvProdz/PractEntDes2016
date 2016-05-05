@@ -31,6 +31,11 @@
             this.CampoHola = new System.Windows.Forms.TextBox();
             this.Boton_DecirHola = new System.Windows.Forms.Button();
             this.CampoQuetal = new System.Windows.Forms.TextBox();
+            this.Campo1 = new System.Windows.Forms.TextBox();
+            this.Campo2 = new System.Windows.Forms.TextBox();
+            this.CampoResult = new System.Windows.Forms.TextBox();
+            this.label1 = new System.Windows.Forms.Label();
+            this.Suma = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // CampoHola
@@ -58,11 +63,56 @@
             this.CampoQuetal.Size = new System.Drawing.Size(207, 20);
             this.CampoQuetal.TabIndex = 2;
             // 
+            // Campo1
+            // 
+            this.Campo1.Location = new System.Drawing.Point(26, 148);
+            this.Campo1.Name = "Campo1";
+            this.Campo1.Size = new System.Drawing.Size(100, 20);
+            this.Campo1.TabIndex = 3;
+            // 
+            // Campo2
+            // 
+            this.Campo2.Location = new System.Drawing.Point(168, 147);
+            this.Campo2.Name = "Campo2";
+            this.Campo2.Size = new System.Drawing.Size(100, 20);
+            this.Campo2.TabIndex = 4;
+            // 
+            // CampoResult
+            // 
+            this.CampoResult.Location = new System.Drawing.Point(379, 147);
+            this.CampoResult.Name = "CampoResult";
+            this.CampoResult.Size = new System.Drawing.Size(100, 20);
+            this.CampoResult.TabIndex = 5;
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Location = new System.Drawing.Point(318, 151);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(58, 13);
+            this.label1.TabIndex = 6;
+            this.label1.Text = "Resultado:";
+            // 
+            // Suma
+            // 
+            this.Suma.Location = new System.Drawing.Point(26, 190);
+            this.Suma.Name = "Suma";
+            this.Suma.Size = new System.Drawing.Size(75, 23);
+            this.Suma.TabIndex = 7;
+            this.Suma.Text = "Sumar";
+            this.Suma.UseVisualStyleBackColor = true;
+            this.Suma.Click += new System.EventHandler(this.Suma_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(517, 236);
+            this.Controls.Add(this.Suma);
+            this.Controls.Add(this.label1);
+            this.Controls.Add(this.CampoResult);
+            this.Controls.Add(this.Campo2);
+            this.Controls.Add(this.Campo1);
             this.Controls.Add(this.CampoQuetal);
             this.Controls.Add(this.Boton_DecirHola);
             this.Controls.Add(this.CampoHola);
@@ -78,6 +128,11 @@
         private System.Windows.Forms.TextBox CampoHola;
         private System.Windows.Forms.Button Boton_DecirHola;
         private System.Windows.Forms.TextBox CampoQuetal;
+        private System.Windows.Forms.TextBox Campo1;
+        private System.Windows.Forms.TextBox Campo2;
+        private System.Windows.Forms.TextBox CampoResult;
+        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Button Suma;
     }
 }
 

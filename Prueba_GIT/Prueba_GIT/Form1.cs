@@ -27,5 +27,14 @@ namespace Prueba_GIT
             CampoHola.Text = "Hola Mundo";
             CampoQuetal.Text = "¿Qué tal estás?";
         }
+
+        private void Suma_Click(object sender, EventArgs e)
+        {
+            int suma = 0;
+
+            suma = Convert.ToInt32(Campo1.Text) + Convert.ToInt32(Campo2.Text);
+
+            CampoResult.Text = Convert.ToString(suma);
+        }
     }
 }
