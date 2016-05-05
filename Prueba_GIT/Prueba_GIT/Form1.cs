@@ -36,5 +36,14 @@ namespace Prueba_GIT
 
             CampoResult.Text = Convert.ToString(suma);
         }
+
+        private void Resta_Click(object sender, EventArgs e)
+        {
+            int suma = 0;
+
+            suma = Convert.ToInt32(Campo1.Text) - Convert.ToInt32(Campo2.Text);
+
+            CampoResult.Text = Convert.ToString(suma);
+        }
     }
 }

@@ -36,6 +36,7 @@
             this.CampoResult = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
             this.Suma = new System.Windows.Forms.Button();
+            this.Resta = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // CampoHola
@@ -103,11 +104,22 @@
             this.Suma.UseVisualStyleBackColor = true;
             this.Suma.Click += new System.EventHandler(this.Suma_Click);
             // 
+            // Resta
+            // 
+            this.Resta.Location = new System.Drawing.Point(107, 190);
+            this.Resta.Name = "Resta";
+            this.Resta.Size = new System.Drawing.Size(75, 23);
+            this.Resta.TabIndex = 8;
+            this.Resta.Text = "Restar";
+            this.Resta.UseVisualStyleBackColor = true;
+            this.Resta.Click += new System.EventHandler(this.Resta_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(517, 236);
+            this.Controls.Add(this.Resta);
             this.Controls.Add(this.Suma);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.CampoResult);
@@ -133,6 +145,7 @@
         private System.Windows.Forms.TextBox CampoResult;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Button Suma;
+        private System.Windows.Forms.Button Resta;
     }
 }
 
