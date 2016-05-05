@@ -1,0 +1,8 @@
+*.exe
+/Prueba_GIT/Prueba_GIT/bin
+/Prueba_GIT/Prueba_GIT/Properties
+/Prueba_GIT/Prueba_GIT/obj
+*.config
+*.resx
+*.csproj
+*.sln
