@@ -39,11 +39,20 @@ namespace Prueba_GIT
 
         private void Resta_Click(object sender, EventArgs e)
         {
-            int suma = 0;
+            int resta = 0;
 
-            suma = Convert.ToInt32(Campo1.Text) - Convert.ToInt32(Campo2.Text);
+            resta = Convert.ToInt32(Campo1.Text) - Convert.ToInt32(Campo2.Text);
 
-            CampoResult.Text = Convert.ToString(suma);
+            CampoResult.Text = Convert.ToString(resta);
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            int multiplicacion = 0;
+
+            multiplicacion = Convert.ToInt32(Campo1.Text) * Convert.ToInt32(Campo2.Text);
+
+            CampoResult.Text = Convert.ToString(multiplicacion);
         }
     }
 }
